@@ -1,0 +1,206 @@
+body{
+    padding:0;
+    margin: 0%;
+    margin-bottom: 0%;
+    
+}
+h1,h5{
+    text-align: center;
+    color: orange;
+    text-decoration: none;
+}
+.imageI{
+        width: 8%;
+        
+        justify-content: left;
+}
+.a1{
+    text-decoration: none;
+    color:white;
+}
+.a1:hover{
+    color: orangered;
+}
+select{
+    width: 60px;
+    height: 30px;
+    background-color: transparent;
+    border:none;
+    text-decoration-color: black;
+    color:orange;
+}
+.marqueed1{
+    height: 40px;
+    background-color: rgb(3, 3, 181);
+    animation: 10s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+video{
+    height: 100%;
+    width: 100%;
+}
+.ls2{
+    text-align:left;
+    font-size: 30px;
+
+}
+.img12{
+    width: 100%;
+}
+.top1212{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.top1212:hover{
+    color: blue;
+}
+.soption11{
+    height: 40px;
+   margin-top: 15px;
+   font-size: 19px;
+}
+.circle6{
+    /* margin:0px; */
+    /* padding: 0px; */
+    /* box-sizing: border-box; */
+    height: 25vh;
+    /* background-size: 100%; */
+    /* width: 100%; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: red; */
+    /* border-radius: 50%; */
+    /* overflow: hidden; */
+    /* overflow:hidden; */
+    /* text-align: center; */
+}
+.circle6 img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 8px solid;
+
+}
+.roketimg1  {
+    /* height: 10px;
+    width: 10px;
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 4px; */
+    /* box-shadow: 0 8px 16px regba(0,0,0,.3); */
+    
+     
+    /* position: absolute; */
+    position: relative;
+    /* top:10px; */
+    align-items: center;
+    left:650px;
+    width:1170px;
+    padding:50px;
+    transform: translate(-50%,-50%);
+    background:linear-gradient(#006992,#2E1760);
+    /* box-sizing:border-box; */
+    box-shadow:015px 20px rgba(0,0,0,6);
+    border-radius:0px;
+}
+.k2121,.roketimg1{
+    margin-bottom: 0px;
+
+}
+.buttonc{
+    padding: 15px 40px;
+    /* border: none; */
+    border-color: #002855;
+    outline:none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.buttonc::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#0466C8;
+    /* border-color: black; */
+    left: 0;
+    top:0;
+    border-radius: 25px;
+}
+/* glow */
+/* .buttonc::before{
+    background:linear-gradient(
+        45deg,
+        #03045E,#023E8A,#0077B6,
+        #0096C7,#00B4D8,#48CAE4
+    );
+    position: absolute;
+    top:-2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter:blur(8px);
+    animation:glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius:  10px;
+    opacity: 1;
+}
+@keyframes glowing{
+    0%{background-position: 0 0;}
+    50%{background-position: 400% 0;}
+    100%{background-position: 0 0;}
+}
+.buttonc:hover::before{
+    opacity: 1;
+}
+.buttonc:active:after{
+    background: transparent;
+}
+.buttonc:active{
+    color: #000;
+    font-weight: bold;
+} */
+.buttonall{
+    padding: 15px 40px;
+    /* border: none; */
+    border-color: #002855;
+    outline:none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.buttonall::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#001845;
+    /* border-color: black; */
+    left: 0;
+    top:0;
+    border-radius: 25px;
+}   
+.firstlist1:hover{
+    color: orangered;
+}
+.icon4{
+    color: white;
+    float: right;
+    font-size: 13px;
+    position: relative;left: 200px;
+    background-color: rgb(2, 108, 196);
+    height: 22px;
+    /* width: 100%; */
+}
